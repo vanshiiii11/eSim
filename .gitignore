@@ -1,3 +1,8 @@
+# Python build artifacts
+*.tgz
+*.egg-info/
+__pycache__/
+*.pyc
 *.bak
 *.cir.ckt
 *.log
