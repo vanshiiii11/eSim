@@ -22,3 +22,27 @@ There should be only one commit per pull request.
   * After commit message, there should be a commit body where you can mention what you did in short or in detail.
 
 Please follow above method to file pull requests.
+---
+
+## 🧪 Contribution Notes (Ubuntu 25.04)
+
+While setting up this project on **Ubuntu 25.04 (VM)**, the following issues were encountered and resolved:
+
+### SSH Authentication Issue
+- Initial `git push` attempts failed with:
+  `Permission denied (publickey)`
+- Root cause: SSH key not added to GitHub account
+
+### Resolution
+- Generated SSH key using:
+  `ssh-keygen -t ed25519`
+- Added `id_ed25519.pub` to GitHub → Settings → SSH and GPG keys
+- Started ssh-agent and added key:
+  `eval "$(ssh-agent -s)"`
+  `ssh-add ~/.ssh/id_ed25519`
+- Verified connection:
+  `ssh -T git@github.com`
+
+Push succeeded after completing these steps.
+
+Tested and documented by **Vanshika Motwani (2026)**.
