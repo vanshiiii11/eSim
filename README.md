@@ -77,3 +77,5 @@ Please refer [here](https://github.com/FOSSEE/eSim/blob/master/CONTRIBUTION.md) 
 It is developed by FOSSEE Team at IIT Bombay and is released under GNU GPL License.
 ---
 Maintained and tested by **Vanshika Motwani** (2026)
+> Recent contributions include Ubuntu 25.04 setup troubleshooting.
+> See [CONTRIBUTION.Md](CONTRIBUTION.md) for details.
