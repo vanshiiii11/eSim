@@ -7,8 +7,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/fossee/esim)](https://github.com/fossee/esim/network)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/fossee/esim)
 ![GitHub contributors](https://img.shields.io/github/contributors/fossee/esim)
-##updated by Vanshika (Jan 31,2026)
-## eSim
+#UPdated By Vanshika MOtwani(31st Jan,2026)
 
 [eSim](https://esim.fossee.in/) is an open source EDA tool for circuit design, simulation, analysis and PCB design, developed by [FOSSEE Team](https://www.fossee.in/) at [IIT Bombay](https://www.iitb.ac.in/).
 It is an integrated tool build using open source softwares such as KiCad, Ngspice and GHDL.
@@ -20,25 +19,30 @@ eSim is released for the following distributions (operating systems):
 ## 🧪 Tested Environment
 
 This project was tested and verified on the following system:
-
 - OS: Ubuntu 25.04 (VirtualBox VM)
 - Architecture: x86_64
 - Python: 3.x
 - SSH-based GitHub authentication
 
 All setup steps were executed successfully on this environment.
-## 🧪 Tested Environment
-
-This project was tested and verified on the following system:
-
-- OS: Ubuntu 25.04 (VirtualBox VM)
-- Architecture: x86_64
-- Python: 3.x
-- SSH-based GitHub authentication
-
-All setup steps were executed successfully on this environment.
+Jan 31,2026)
 
 To use eSim on your machine having above distributions, please refer to link [here](https://esim.fossee.in/downloads) for installation and other guidelines.
+## ⚠️ Common Issues and Fixes
+
+### SSH Permission Denied (publickey)
+If you face SSH authentication issues while pushing to GitHub:
+
+- Ensure SSH key is generated using:
+  `ssh-keygen -t ed25519`
+- Add the public key (`id_ed25519.pub`) to GitHub → Settings → SSH keys
+- Start ssh-agent and add key:
+  `eval "$(ssh-agent -s)"`  
+  `ssh-add ~/.ssh/id_ed25519`
+- Test connection:
+  `ssh -T git@github.com`
+
+This project was successfully pushed using SSH authentication.
 
 > Note for other distributions: You can refer [`installers`](https://github.com/fossee/eSim/tree/installers) branch for documentation on packaging (for above mentioned distributions) to build installers for your operating system in a similar way. For providing your build, please check the `Contribution` section mentioned below.
 
@@ -71,3 +75,5 @@ Please refer [here](https://github.com/FOSSEE/eSim/blob/master/CONTRIBUTION.md) 
 
 ## License
 It is developed by FOSSEE Team at IIT Bombay and is released under GNU GPL License.
+---
+Maintained and tested by **Vanshika Motwani** (2026)
