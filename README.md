@@ -7,7 +7,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/fossee/esim)](https://github.com/fossee/esim/network)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/fossee/esim)
 ![GitHub contributors](https://img.shields.io/github/contributors/fossee/esim)
-
+##updated by Vanshika (Jan 31,2026)
 ## eSim
 
 [eSim](https://esim.fossee.in/) is an open source EDA tool for circuit design, simulation, analysis and PCB design, developed by [FOSSEE Team](https://www.fossee.in/) at [IIT Bombay](https://www.iitb.ac.in/).
