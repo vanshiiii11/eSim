@@ -55,6 +55,13 @@ This project was successfully pushed using SSH authentication.
 * Support for Mixed-Signal Simulations including Microcontrollers.
 * eSim has been successfully ported to low cost FOSSEE [laptop](https://laptop.fossee.in/)
 
+## ⚠️ Known Limitation
+
+Python 3.13 on Ubuntu 25.04 is currently incompatible with eSim-2.5
+due to deprecated setup.py workflows and unsupported dependencies.
+
+No forced downgrade was attempted to preserve system stability.
+
 ## Open-Source Softwares Used
 * [Python](https://www.python.org/)
 * [KiCad](https://www.kicad.org/)
