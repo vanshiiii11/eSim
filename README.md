@@ -16,7 +16,7 @@ It is an integrated tool build using open source softwares such as KiCad, Ngspic
 eSim is released for the following distributions (operating systems):
 * Ubuntu 22.04, 23.04, 24.04 LTS versions.
 * Microsoft Windows 8, 10 and 11.
-## 🧪 Tested Environment
+## Tested Environment
 
 This project was tested and verified on the following system:
 - OS: Ubuntu 25.04 (VirtualBox VM)
@@ -28,7 +28,7 @@ All setup steps were executed successfully on this environment.
 Jan 31,2026)
 
 To use eSim on your machine having above distributions, please refer to link [here](https://esim.fossee.in/downloads) for installation and other guidelines.
-## ⚠️ Common Issues and Fixes
+## Common Issues and Fixes
 
 ### SSH Permission Denied (publickey)
 If you face SSH authentication issues while pushing to GitHub:
@@ -37,7 +37,8 @@ If you face SSH authentication issues while pushing to GitHub:
   `ssh-keygen -t ed25519`
 - Add the public key (`id_ed25519.pub`) to GitHub → Settings → SSH keys
 - Start ssh-agent and add key:
-  `eval "$(ssh-agent -s)"`  
+  `eval "$(ssh-agent -s)"`
+ 
   `ssh-add ~/.ssh/id_ed25519`
 - Test connection:
   `ssh -T git@github.com`
@@ -55,7 +56,7 @@ This project was successfully pushed using SSH authentication.
 * Support for Mixed-Signal Simulations including Microcontrollers.
 * eSim has been successfully ported to low cost FOSSEE [laptop](https://laptop.fossee.in/)
 
-## ⚠️ Known Limitation
+##  Known Limitation
 
 Python 3.13 on Ubuntu 25.04 is currently incompatible with eSim-2.5
 due to deprecated setup.py workflows and unsupported dependencies.
