@@ -17,6 +17,26 @@ It is an integrated tool build using open source softwares such as KiCad, Ngspic
 eSim is released for the following distributions (operating systems):
 * Ubuntu 22.04, 23.04, 24.04 LTS versions.
 * Microsoft Windows 8, 10 and 11.
+## 🧪 Tested Environment
+
+This project was tested and verified on the following system:
+
+- OS: Ubuntu 25.04 (VirtualBox VM)
+- Architecture: x86_64
+- Python: 3.x
+- SSH-based GitHub authentication
+
+All setup steps were executed successfully on this environment.
+## 🧪 Tested Environment
+
+This project was tested and verified on the following system:
+
+- OS: Ubuntu 25.04 (VirtualBox VM)
+- Architecture: x86_64
+- Python: 3.x
+- SSH-based GitHub authentication
+
+All setup steps were executed successfully on this environment.
 
 To use eSim on your machine having above distributions, please refer to link [here](https://esim.fossee.in/downloads) for installation and other guidelines.
 
